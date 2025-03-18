@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liberty Computer Institution</title>
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    nav {
+      background: #0056b3;
+      color: white;
+      padding: 0.5rem 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .section {
+      padding: 2rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .section img {
+      max-width: 20%;
+      border-radius: 5px;
+      margin: 1rem 0;
+      transition: transform 0.3s ease;
+    }
+
+    .section img:hover {
+      transform: scale(1.05);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0056b3;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Welcome to Liberty Computer Institution</header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+    
+
+  </nav>
+  <div class="container">
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <img src="./about.jpg" alt="About Us Image">
+      <p>Liberty Computer Institution is dedicated to offering high-quality education in technology, programming, and information technology. Our objective is to help kids flourish in the digital age.
+
+      </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+      <h2>Our Courses</h2>
+      <img src="./CCC.png" alt="Courses Image">
+      <ul>
+        <li>Web Development</li>
+        <li>Data Science and Machine Learning</li>
+        <li>Graphic Design</li>
+        <li>Cybersecurity</li>
+
+      </ul>
+      
+<p>Search:</p>
+<input type="search" name="search" 
+ placeholder="Enter keyword" />
+<input type="submit" value="Search" />
+</form>
+      <a href="#" class="button">Explore More</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Us</h2>
+      <img src="./CC2.jpg" alt="Contact Image">
+      <p>Email: info@liberty computer.com</p>
+      <p>Phone: +1 456 7890</p>
+      <p>Address: 23 Tech Avenue, Silicon City</p>
+    </section>
+  </div>
+  <footer>
+    © 2025 Liberty Computer Institution. All Rights Reserved.
+  </footer>
+</body>
+</html>
